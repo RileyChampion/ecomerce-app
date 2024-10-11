@@ -1,0 +1,15 @@
+[submodule "ecommerce-frontend"]
+	path = ecommerce-frontend
+	url = https://github.com/RileyChampion/ecommerce-frontend
+[submodule "backend-services/ecommerce-product-service"]
+	path = backend-services/ecommerce-product-service
+	url = https://github.com/RileyChampion/ecommerce-product-service
+[submodule "backend-services/ecommerce-user-service"]
+	path = backend-services/ecommerce-user-service
+	url = https://github.com/RileyChampion/ecommerce-user-service
+[submodule "backend-services/ecommerce-cart-service"]
+	path = backend-services/ecommerce-cart-service
+	url = https://github.com/RileyChampion/ecommerce-cart-service
+[submodule "backend-services/ecommerce-order-service"]
+	path = backend-services/ecommerce-order-service
+	url = https://github.com/RileyChampion/ecommerce-order-service
