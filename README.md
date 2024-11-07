@@ -31,13 +31,13 @@ Description: Create a E-commerce website that emulates the popular websites clot
 	- Recommendation system
 
 # Todo
-- [ ] **Create Repos for e-commerce app**
-	- [ ] Frontend
-	- [ ] Micro services
-		- [ ] Product
-		- [ ] Order
-		- [ ] Cart
-		- [ ] User
+- [x] **Create Repos for e-commerce app**
+	- [x] Frontend
+	- [x] Micro services
+		- [x] Product
+		- [x] Order
+		- [x] Cart
+		- [x] User
 - [ ] **Product Service**
 	- [x]  Setup Project
 		- [x] Setup ExpressJS for this service
