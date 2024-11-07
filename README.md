@@ -1,2 +1,165 @@
 # ecommerce-app
 E-commerce Clothing app simulating Shopify sites 
+
+Clothing Website - Similar to Zumeiz, Pacsun, Addidas, etc
+Description: Create a E-commerce website that emulates the popular websites clothing websites such as Zumiez, PacSun, Addidas etc. This full stack application is my way of understanding creating full-stack application development with a microservice architecture. While this may be a overdeveloped approach, this seems like a fun experiment to test this approach
+
+# Goals:
+- Create microservice architecture with four simple services that interact and communicate with one another through data streams such as Apache Kafka
+	- User, Product, Order, Cart
+- Frontend - experiment more with TailwindCSS
+	- Auth
+		- Sign-in
+		- Sign-out
+		- Salting techniques
+	- Pages
+		- User
+			- Cache locally with Cookies
+			- Info about user and order history
+		- Cart
+			- Cache cart for quick lookup
+		- Order
+			- Pre-Complete
+			- Complete
+			- History
+		- Product
+			- Information
+			- Ratings
+	- Searching
+- Work with the StripeAPI to simulate purchases
+- **Stretch GOALS**
+	- Recommendation system
+
+# Todo
+- [ ] **Create Repos for e-commerce app**
+	- [ ] Frontend
+	- [ ] Micro services
+		- [ ] Product
+		- [ ] Order
+		- [ ] Cart
+		- [ ] User
+- [ ] **Product Service**
+	- [x]  Setup Project
+		- [x] Setup ExpressJS for this service
+		- [x] Add eslint linter
+		- [x] Setup unit testing with Jest
+		- [x] Setup Dockerfile
+		- [x]  Setup OpenAPI
+		- [x] Setup CICD via GitHub Actions
+		- [x] CI
+			- [x] Unit testing
+			- [x] Linting
+			- [x] Build and Scan Docker Image
+		- [x] CD
+			- [x] Deploy to Heroku
+	- [ ] Setup Database & Connection
+	- [ ] Create Tables
+		- [ ] 
+	- [ ] Create Endpoints
+		- [ ] 
+- [ ] **User Service**
+	- [ ] Setup Project
+		- [ ] Setup FastAPI for this service
+		- [ ] Add black python linter
+		- [ ] Setup Unit testing
+		- [ ] Setup Dockerfile
+		- [ ]  Setup OpenAPI
+		- [ ] Setup CICD via GitHub Actions
+		- [ ] CI
+			- [ ] Unit testing
+			- [ ] Linting
+			- [ ] Build and Scan Docker Image
+		- [ ] CD
+			- [ ] Deploy to Heroku
+	- [ ] Setup Database & Connection
+	- [ ] Create Tables
+		- [ ] User
+		- [ ] Password - Hashed/Salted
+		- [ ] Orders
+		- [ ] Ratings (On Products)
+	- [ ] Create Endpoints
+		- [ ] /sign-up
+		- [ ] /sign-in
+		- [ ] /logout
+		- [ ] /settings
+			- [ ] Change name
+			- [ ] Email
+			- [ ] Password
+		- [ ] /orders
+			- [ ] pull from the orders table
+		- [ ] /ratings
+			- [ ] pull from ratings table
+- [ ] **Cart Service**
+	- [ ]   Setup Project
+		- [ ] Setup Go for this service
+		- [ ] Add golangci linter
+		- [ ] Setup unit testing
+		- [ ] Setup Dockerfile
+		- [ ]  Setup OpenAPI
+		- [ ] Setup CICD via GitHub Actions
+		- [ ] CI
+			- [ ] Unit testing
+			- [ ] Linting
+			- [ ] Build and Scan Docker Image
+		- [ ] CD
+			- [ ] Deploy to Heroku
+	- [ ] Setup Database & Connection
+		- [ ] 
+	- [ ] Create Tables
+		- [ ] 
+	- [ ] Create Endpoints
+		- [ ] 
+- [ ] **Order Service**
+	- [ ]   Setup Project
+		- [ ] Setup Nest.JS for this service
+		- [ ] Add eslint linter
+		- [ ] Setup unit testing with Jest
+		- [ ] Setup Dockerfile
+		- [ ]  Setup OpenAPI
+		- [ ] Setup CICD via GitHub Actions
+		- [ ] CI
+			- [ ] Unit testing
+			- [ ] Linting
+			- [ ] Build and Scan Docker Image
+		- [ ] CD
+			- [ ] Deploy to Heroku
+	- [ ] Setup Database & Connection
+	- [ ] Create Tables
+		- [ ] 
+	- [ ] Create Endpoints
+		- [ ] 
+- [ ] Setup API Gateway
+	- [ ] Allow Frontend to Setup
+- [ ] Setup Data Streaming
+	- [ ] Allow for communication between services?
+	- [ ] Apache Kafka? or something free
+- [ ] Frontend
+	- [ ] Lightweight Framework
+		- [ ] VueJS, ReactJS, Remix, Vanilla
+	- [ ] Setup CICD
+		- [ ]  CI
+			- [ ] Unit testing
+			- [ ] Linting
+			- [ ] Build and Scan Docker Image
+		- [ ] CD
+			- [ ] Deploy to Vercel
+	- [ ] Pages
+		- [ ] User
+			- [ ] Profile
+			- [ ] Order History Page
+			- [ ] Edit settings
+			- [ ] Ratings
+		- [ ] Cart
+			- [ ] Cache cart for quick lookup
+		- [ ] Order
+			- [ ] Pre-Complete
+			- [ ] Complete
+			- [ ] History
+		- [ ] Product
+			- [ ] One Product
+				- [ ] Information
+				- [ ] Options
+				- [ ] Ratings
+			- [ ] Products Page
+				- [ ] Multiple products
+					- [ ] Info and image
