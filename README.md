@@ -5,8 +5,8 @@ Clothing Website - Similar to Zumeiz, Pacsun, Addidas, etc
 Description: Create a E-commerce website that emulates the popular websites clothing websites such as Zumiez, PacSun, Addidas etc. This full stack application is my way of understanding creating full-stack application development with a microservice architecture. While this may be a overdeveloped approach, this seems like a fun experiment to test this approach
 
 # Current Architectual Design
-![Ecom Microarchitecture](https://github.com/user-attachments/assets/110e1277-776a-4c9b-9ec3-378b100b602e)
-https://excalidraw.com/#json=N1OpAr4twjdP_su1cngV6,kGPpcO9nAoFXbL_zvjIa6A
+![Ecom Microarchitecture](https://github.com/user-attachments/assets/12b57d6c-4c39-4268-bed3-8a1f2630fb29)
+[Design Mockup](https://excalidraw.com/#json=nS-rcVpBQ91Ho2CtscRvr,kWY9T3jDc3Fn0wvYblrSBg)
 
 # Goals:
 - Create microservice architecture with four simple services that interact and communicate with one another through data streams such as Apache Kafka
